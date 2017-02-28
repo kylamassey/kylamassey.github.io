@@ -1,0 +1,219 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    height: 100%;
+    background-image: url('../images/detroit2.jpg');
+
+    /*Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+   /* The image used */
+    height: 150%;
+    background-image: url('../images/nyc.jpg');
+
+    /*Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+   /* The image used */
+    height: 100%;
+    background-image: url('../images/subway.jpg');
+
+    /*Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.born {
+  color: white;
+  font-family:'Montserrat', sans-serif;
+  margin-top: 29%;
+  font-size: 40px;
+  background-color: rgb(214, 104, 72);
+}
+
+.bgwhite {
+  background-color: white;
+  font-family:'Montserrat', sans-serif;
+  color: rgb(214, 104, 72);
+  min-height: 100%;
+  padding-top: 5%;
+}
+
+
+p {
+  color: grey;
+  font-size: 18px;
+  line-height: 150%;
+  padding-bottom: 3%;
+}
+
+h1 {
+  padding-bottom: 3%;
+}
+
+span {
+   color: rgb(214, 104, 72);
+}
+
+/*---------------Beginning of css for projects section layout---------------------- */
+
+.projects{
+    padding:70px 0;
+    min-height: 100%;
+}
+h6.description{
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #999;
+  border-bottom: 1px solid rgba(0, 0, 0,0.1);
+  padding-bottom: 5px;
+}
+.profile{
+  margin-top: 25px;
+}
+.profile h1{
+  font-weight: normal;
+  font-size: 20px;
+  margin:10px 0 0 0;
+}
+.profile h2{
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+.profile .img-box{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.profile .img-box:after{
+  content:"";
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.img-box ul{
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  text-align: center;
+  width: 100%;
+  padding-left: 0px;
+  height: 0px;
+  margin:0px;
+  opacity: 0;
+}
+.profile .img-box:after, .img-box ul, .img-box ul li{
+  -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul i{
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+.img-box ul li{
+  width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #88C425;
+    margin: 2px;
+    padding: 5px;
+  display: inline-block;
+}
+.img-box a{
+  color:#fff;
+}
+.img-box:hover:after{
+  opacity: 1;
+}
+.img-box:hover ul{
+  opacity: 1;
+}
+.img-box ul a{
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.img-box a:hover li{
+  border-color: #fff;
+  color: #88C425;
+}
+a{
+    color:#88C425;
+}
+a:hover{
+    text-decoration:none;
+    color:#519548;
+}
+i.red{
+    color:#BC0213;
+}
+
+/*----------------------------Footer Styling-------------------------------------------------*/
+
+body {
+  margin-bottom: 150px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  text-align: center;
+  padding-top: 1.5%;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-github {
+  color: black ;
+}
+
+.fa-file-pdf-o {
+  color: #ce2339;
+}
+
+.resumediv {
+    width: 100%;
+    min-height: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgba(253,255,248,.3);
+    margin-top:20px;
+}
+
+.fa-linkedin {
+    color: #007bb6;
+}
+
+.fa-link {
+  color: rgb(214, 104, 72);
+}
